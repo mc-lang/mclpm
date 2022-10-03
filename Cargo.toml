@@ -1,0 +1,12 @@
+[package]
+name = "mclpm"
+version = "0.1.0"
+edition = "2021"
+authors = ["MCorange <mcorangecodes@gmail.com>"]
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+dirs = "4.0.0"
+toml = "0.5.9"
+serde= "1.0.145"
+serde_derive = "1.0.145"

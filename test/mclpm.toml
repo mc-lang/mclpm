@@ -1,0 +1,9 @@
+[project]
+name="hello_world"
+version="0.0.1"
+author="The MClang team."
+
+[build]
+main="./src/main.mcl"
+build_dir="./build"
+compiler="~/.mclang/mclang"
