@@ -1,5 +1,5 @@
 
-GIT_LINK=""
+GIT_LINK=https://github.com/mc-lang/mclpm.git
 
 all: build
 
@@ -10,6 +10,5 @@ build.release:
 	cargo build --release
 
 install: build.release
-	mkdir -p ~/.mclpm
-	pushd ~/.mclpm
-	cargo clone $(GIT_LINK)
+	sudo cp ./target/release/mclpm /usr/bin/mclpm
+
